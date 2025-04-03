@@ -1,10 +1,10 @@
 import React from 'react';
+import Carosel from './BannerPage/Carosel';
 
 const Home:React.FC = () => {
     return (
         <div> 
-            <h2> Home page </h2>
-            
+            <Carosel/>
         </div>
     );
 };
