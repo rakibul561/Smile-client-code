@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer:React.FC = () => {
     return ( 
-        <div> 
+        <div className='h-screen'> 
             <p> footer page </p>
             
         </div>
