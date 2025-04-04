@@ -38,7 +38,7 @@ export default function Carosel() {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><Slide image={bgimg1}></Slide> </SwiperSlide>
+        <SwiperSlide><Slide  image={bgimg1}> hello</Slide> </SwiperSlide>
         <SwiperSlide><Slide image={bgimg2}></Slide> </SwiperSlide>
         <SwiperSlide><Slide image={bgimg3}></Slide> </SwiperSlide>
       

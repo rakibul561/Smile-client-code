@@ -23,9 +23,7 @@ const Slide: React.FC<SlideProps> = ({ image }) => {
             Embark on unforgettable journeys, explore hidden gems, and create lifelong memories.
             From majestic mountains to serene beaches, your next adventure starts here.
           </p>
-          <p className="mt-2 text-lg text-[#10B981] font-semibold">
-            🌍 Explore More | ✈️ Travel Easy | 🏕️ Live Your Dream
-          </p>
+          
         </div>
       </div>
     </div>
