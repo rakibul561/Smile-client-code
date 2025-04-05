@@ -24,6 +24,8 @@ const Slide: React.FC<SlideProps> = ({ image }) => {
             From majestic mountains to serene beaches, your next adventure starts here.
           </p>
           <p> please explore your favorite cluth </p>
+          <p> please explore your favorite cluth </p>
+          <p> please explore your favorite cluth </p>
           
         </div>
       </div>
