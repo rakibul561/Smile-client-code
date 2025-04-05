@@ -1,5 +1,4 @@
-
-'use client'
+"use client";
 
 import Link from "next/link";
 import React, { useState } from "react";
@@ -8,7 +7,11 @@ const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="relative  shadow">
+   <div> 
+    <div className="bg-red-500 h-20">
+       <h2> first navabr code is </h2>
+    </div>
+     <nav className="relative  shadow">
       <div className=" max-w-7xl px-6 py-4 mx-auto">
         <div className="lg:flex lg:items-center lg:justify-between">
           <div className="flex items-center justify-between">
@@ -67,41 +70,22 @@ const Navbar: React.FC = () => {
           {/* Mobile Menu */}
           <div
             className={`absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out text-black lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:flex lg:items-center ${
-              isOpen ? "translate-x-0 opacity-100" : "opacity-0 -translate-x-full"
+              isOpen
+                ? "translate-x-0 opacity-100"
+                : "opacity-0 -translate-x-full"
             } lg:opacity-100 lg:translate-x-0`}
           >
-            <div className="flex flex-col -mx-6 lg:flex-row lg:items-center lg:mx-8">
-              <a
-                href="#"
-                className="px-3 py-2 mx-3 mt-2  transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-100 dark:hover:bg-gray-700"
-              >
-                Join Slack
-              </a>
-              <Link href={'/'} className="font-bold hover:text-primary">Home</Link>
-              <Link href={'/'} className="font-bold hover:text-primary">Home</Link>
-              <Link href={'/'} className="font-bold hover:text-primary">Home</Link>
-              <Link href={'/'} className="font-bold hover:text-primary">Home</Link>
-              <Link href={'/'} className="font-bold hover:text-primary">Home</Link>
+             
 
-              <a
-                href="#"
-                className="px-3 py-2 mx-3 mt-2  transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-gray-100 dark:hover:bg-gray-700"
-              >
-                Browse Topics
-              </a>
-              <a
-                href="#"
-                className="px-3 py-2 mx-3 mt-2  transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-100 dark:hover:bg-gray-700"
-              >
-                Random Item
-              </a>
-              <a
-                href="#"
-                className="px-3 py-2 mx-3 mt-2  transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-100 dark:hover:bg-gray-700"
-              >
-                Experts
-              </a>
-            </div>
+             <div className={`navbar-center lg:ml-36 text-center hidden md:flex flex-wrap justify-center space-x-4   'block' : 'hidden md:block'}`}>
+          <Link href={'/'} className="font-bold hover:text-primary">Home</Link>
+          <Link href={'/about'} className="font-bold hover:text-primary">About</Link>
+          <Link href={'/service'} className="font-bold hover:text-primary">Services</Link>
+          <Link href={'/my-booking'} className="font-bold hover:text-primary">My Booking</Link>
+          <Link href={'/blog'} className="font-bold hover:text-primary">Blog</Link>
+          <Link href={'/contact'} className="font-bold hover:text-primary">Contact</Link>
+        </div>
+
 
             <div className="flex items-center mt-4 lg:mt-0">
               <button
@@ -146,6 +130,7 @@ const Navbar: React.FC = () => {
         </div>
       </div>
     </nav>
+   </div>
   );
 };
 
