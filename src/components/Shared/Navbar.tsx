@@ -1,5 +1,7 @@
 
 'use client'
+
+import Link from "next/link";
 import React, { useState } from "react";
 
 const Navbar: React.FC = () => {
@@ -75,6 +77,12 @@ const Navbar: React.FC = () => {
               >
                 Join Slack
               </a>
+              <Link href={'/'} className="font-bold hover:text-primary">Home</Link>
+              <Link href={'/'} className="font-bold hover:text-primary">Home</Link>
+              <Link href={'/'} className="font-bold hover:text-primary">Home</Link>
+              <Link href={'/'} className="font-bold hover:text-primary">Home</Link>
+              <Link href={'/'} className="font-bold hover:text-primary">Home</Link>
+
               <a
                 href="#"
                 className="px-3 py-2 mx-3 mt-2  transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-gray-100 dark:hover:bg-gray-700"
