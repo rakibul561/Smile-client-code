@@ -84,7 +84,7 @@ const Navbar: React.FC = () => {
           <Link href={'/my-booking'} className="font-bold hover:text-primary">My Booking</Link>
           <Link href={'/blog'} className="font-bold hover:text-primary">Blog</Link>
           <Link href={'/contact'} className="font-bold hover:text-primary">Contact</Link>
-          <Link href={'/contact'} className="font-bold hover:text-primary">Contact</Link>
+          
         </div>
 
 
