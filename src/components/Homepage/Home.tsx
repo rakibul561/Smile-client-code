@@ -3,7 +3,7 @@ import Carosel from './BannerPage/Carosel';
 
 const Home:React.FC = () => {
     return (
-        <div> 
+        <div className=''> 
             <Carosel/>
         </div>
     );

@@ -2,15 +2,14 @@
 
 import Link from "next/link";
 import React, { useState } from "react";
+import FastNav from "./FastNav";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
    <div> 
-    <div className="bg-red-500 h-20">
-       <h2> first navabr code is </h2>
-    </div>
+     <FastNav/>
      <nav className="relative  shadow">
       <div className=" max-w-7xl px-6 py-4 mx-auto">
         <div className="lg:flex lg:items-center lg:justify-between">
