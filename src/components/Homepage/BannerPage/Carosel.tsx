@@ -1,28 +1,21 @@
 'use client'
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
+import 'swiper/css/pagination'
+import 'swiper/css/navigation'
+import { Autoplay, Pagination, Navigation } from 'swiper/modules'
 
-
-
-// import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import Slide from './Slide';
-
-import bgimg1 from '../../../../public/image/image 1.jpg'
-import bgimg2 from '../../../../public/image/image 2.jpg'
-import bgimg3 from '../../../../public/image/image 2.jpg'
-
-
-
+import Slide from './Slide'
 
 export default function Carosel() {
+  const bgimg1 = 'https://i.ibb.co.com/gbwWcFsD/image-2.jpg'
+  const bgimg2 = 'https://i.ibb.co.com/JRzf8dW0/image-1.jpg '
+
+ // একই image দিলে সব slide একরকম দেখায়
+
   return (
-    <div className=''>
+    <div>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -38,11 +31,10 @@ export default function Carosel() {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><Slide  image={bgimg1}> hello</Slide> </SwiperSlide>
-        <SwiperSlide><Slide image={bgimg2}></Slide> </SwiperSlide>
-        <SwiperSlide><Slide image={bgimg3}></Slide> </SwiperSlide>
-      
+        <SwiperSlide><Slide image={bgimg1} /></SwiperSlide>
+        <SwiperSlide><Slide image={bgimg2} /></SwiperSlide>
+        {/* <SwiperSlide><Slide image={bgimg3} /></SwiperSlide> */}
       </Swiper>
-    </div >
-  );
+    </div>
+  )
 }
