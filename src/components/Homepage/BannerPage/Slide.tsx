@@ -24,10 +24,13 @@ const Slide: React.FC<SlideProps> = ({ image, children }) => {
           {children ? (
             children
           ) : (
-            <p className="mt-4 text-lg text-white/90 lg:text-xl max-w-3xl mx-auto">
-              Embark on unforgettable journeys, explore hidden gems, and create lifelong memories.
-              From majestic mountains to serene beaches, your next adventure starts here.
-            </p>
+            <div className="mt-4 text-lg  text-black bg-white lg:text-xl max-w-3xl mx-auto">
+             <div className="p-10">
+             <h1 className="text-3xl"> AMAZING  <span className="text-red-900 font-bold">OUTLET</span>  </h1> 
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Reprehenderit labore  <br /> dolore maiores corrupti soluta ad animi. Eaque unde et earum!</p>
+             <button className="btn bg-black text-white px-4 py-2 mt-4">shop now</button>
+             </div>
+            </div>
           )}
         </div>
       </div>
