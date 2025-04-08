@@ -1,5 +1,6 @@
 'use client'
 
+import { useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/pagination'
@@ -10,9 +11,9 @@ import Slide from './Slide'
 
 export default function Carosel() {
   const bgimg1 = 'https://i.ibb.co.com/gbwWcFsD/image-2.jpg'
-  const bgimg2 = 'https://i.ibb.co.com/JRzf8dW0/image-1.jpg '
+  const bgimg2 = 'https://i.ibb.co.com/JRzf8dW0/image-1.jpg'
 
- // একই image দিলে সব slide একরকম দেখায়
+  const [currentIndex, setCurrentIndex] = useState(0)
 
   return (
     <div>
@@ -21,7 +22,7 @@ export default function Carosel() {
         centeredSlides={true}
         loop={true}
         autoplay={{
-          delay: 2000,
+          delay: 3000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -30,10 +31,16 @@ export default function Carosel() {
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
+        onSlideChange={(swiper) => {
+          setCurrentIndex(swiper.realIndex) // ✅ loop on থাকলে realIndex ইউজ করো
+        }}
       >
-        <SwiperSlide><Slide image={bgimg1} /></SwiperSlide>
-        <SwiperSlide><Slide image={bgimg2} /></SwiperSlide>
-        {/* <SwiperSlide><Slide image={bgimg3} /></SwiperSlide> */}
+        <SwiperSlide>
+          <Slide image={bgimg1} slideKey={currentIndex} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Slide image={bgimg2} slideKey={currentIndex} />
+        </SwiperSlide>
       </Swiper>
     </div>
   )
