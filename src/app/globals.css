@@ -1,4 +1,11 @@
-@import "tailwindcss";
+
+
+@import "tailwindcss/preflight";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Custom styles here if needed */
+
 
 :root {
   --background: #ffffff;
