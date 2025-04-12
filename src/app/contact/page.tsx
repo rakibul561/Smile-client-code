@@ -7,6 +7,11 @@ const page:React.FC = () => {
             <h2> this is a contact page </h2>
             <h2> this is a contact page </h2>
             <h2> this is a contact page </h2>
+            <h2> this is a contact page </h2>
+            <h2> this is a contact page </h2>
+            <h2> this is a contact page </h2>
+            <h2> this is a contact page </h2>
+            <h2> this is a contact page </h2>
             
         </div>
     );
