@@ -9,7 +9,10 @@ const FastNav: React.FC = () => {
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
         setIsDropdownOpen(false);
       }
     }
@@ -50,17 +53,83 @@ const FastNav: React.FC = () => {
           {isDropdownOpen && (
             <div className="absolute top-8 right-0 bg-white text-black shadow-lg rounded-md w-40 z-50">
               <ul className="flex flex-col p-2 space-y-1">
-                <Link className="hover:bg-gray-200 px-3 py-1 cursor-pointer" href={"/login"}>My Account</Link>
-                <Link className="hover:bg-gray-200 px-3 py-1 cursor-pointer" href={""}>My Wishlist</Link>
-                <Link className="hover:bg-gray-200 px-3 py-1 cursor-pointer" href={""}>Profile</Link>
-                <Link className="hover:bg-gray-200 px-3 py-1 cursor-pointer" href={""}>Login</Link>
+                <Link
+                  className="hover:bg-gray-200 px-3 py-1 cursor-pointer"
+                  href={"/login"}
+                >
+                  My Account
+                </Link>
+                <Link
+                  className="hover:bg-gray-200 px-3 py-1 cursor-pointer"
+                  href={""}
+                >
+                  My Wishlist
+                </Link>
+                <Link
+                  className="hover:bg-gray-200 px-3 py-1 cursor-pointer"
+                  href={""}
+                >
+                  Profile
+                </Link>
+                <Link
+                  className="hover:bg-gray-200 px-3 py-1 cursor-pointer"
+                  href={""}
+                >
+                  Login
+                </Link>
               </ul>
             </div>
           )}
         </div>
 
         {/* Theme Button */}
-        <input type="checkbox" value="synthwave" className="toggle theme-controller" />
+        <label className="toggle text-base-content">
+          <input
+            type="checkbox"
+            value="synthwave"
+            className="theme-controller"
+          />
+
+          <svg
+            aria-label="sun"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <g
+              strokeLinejoin="round"
+              strokeLinecap="round"
+              strokeWidth="2"
+              fill="none"
+              stroke="currentColor"
+            >
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2"></path>
+              <path d="M12 20v2"></path>
+              <path d="m4.93 4.93 1.41 1.41"></path>
+              <path d="m17.66 17.66 1.41 1.41"></path>
+              <path d="M2 12h2"></path>
+              <path d="M20 12h2"></path>
+              <path d="m6.34 17.66-1.41 1.41"></path>
+              <path d="m19.07 4.93-1.41 1.41"></path>
+            </g>
+          </svg>
+
+          <svg
+            aria-label="moon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <g
+              strokeLinejoin="round"
+              strokeLinecap="round"
+              strokeWidth="2"
+              fill="none"
+              stroke="currentColor"
+            >
+              <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+            </g>
+          </svg>
+        </label>
       </div>
     </div>
   );
