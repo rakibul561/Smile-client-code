@@ -2,6 +2,9 @@
 
 import React from "react";
 import FastNav from "./FastNav";
+import Link from "next/link";
+import { IoIosSearch } from "react-icons/io";
+import { CiShoppingCart } from "react-icons/ci";
 
 const Navbar: React.FC = () => {
   return (
@@ -32,56 +35,37 @@ const Navbar: React.FC = () => {
                   />{" "}
                 </svg>
               </div>
-              <ul
+              <div
                 tabIndex={0}
                 className="menu menu-sm dropdown-content  rounded-box z-1 mt-3 w-52 p-2 shadow"
               >
-                <li>
-                  <a>Item 1</a>
-                </li>
-                <li>
-                  <a>Parent</a>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a>Item 3</a>
-                </li>
-              </ul>
+                 <div className="menu menu-horizontal gap-8 font-semibold text-xl px-1">
+             <Link href={""}> HOME</Link>
+             <Link href={""}> WOMEN</Link>
+             <Link href={""}> SHOP</Link>
+             <Link href={""}> BLOG</Link>
+             <Link href={""}> PAGSE</Link>
+             
+             
             </div>
-            <a className="btn btn-ghost text-xl">daisyUI</a>
+              </div>
+            </div>
+            <a className="btn btn-ghost text-xl">Smile</a>
           </div>
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li>
-                <details>
-                  <summary>Parent</summary>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
-                </details>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
-            </ul>
+            <div className="menu menu-horizontal gap-8 font-semibold text-xl px-1">
+             <Link href={""}> HOME</Link>
+             <Link href={""}> WOMEN</Link>
+             <Link href={""}> SHOP</Link>
+             <Link href={""}> BLOG</Link>
+             <Link href={""}> PAGSE</Link>
+             
+             
+            </div>
           </div>
-          <div className="navbar-end">
-            <a className="btn">Button</a>
+          <div className="navbar-end text-3xl gap-4">
+           <CiShoppingCart/>
+           <IoIosSearch/>
           </div>
         </div>
       </div>
