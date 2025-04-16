@@ -17,6 +17,12 @@ const Footer:React.FC = () => {
             <p> footer page </p>
             <p> footer page </p>
             <p> footer page </p>
+            <p> footer page </p>
+            <p> footer page </p>
+            <p> footer page </p>
+            <p> footer page </p>
+            <p> footer page </p>
+            <p> footer page </p>
             
         </div>
     );
