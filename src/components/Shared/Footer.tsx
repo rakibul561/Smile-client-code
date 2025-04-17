@@ -2,7 +2,7 @@
 
 const Footer:React.FC = () => {
   return (
-    <footer className="bg-black text-gray-400 py-10 px-4 md:px-16">
+    <footer className="bg-black mt-10 text-gray-400 py-10 px-4 md:px-16">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* About Store */}
         <div>
