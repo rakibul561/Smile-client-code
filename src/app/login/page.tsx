@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaFacebookF, FaTwitter, FaEdit } from 'react-icons/fa';
 
@@ -8,10 +9,10 @@ const LoginSignup = () => {
         {/* Login Section */}
         <div className="p-8 border border-gray-300">
           <div className="flex gap-4 mb-6">
-            <button className="bg-[#3b5998] text-white px-4 py-2 flex items-center gap-2 font-semibold text-sm">
+            <Link href={''} className="bg-[#3b5998] text-white px-4 py-2 flex items-center gap-2 font-semibold text-sm">
               <FaFacebookF />
               SIGN IN WITH FACEBOOK
-            </button>
+            </Link>
             <button className="bg-[#1DA1F2] text-white px-4 py-2 flex items-center gap-2 font-semibold text-sm">
               <FaTwitter />
               SIGN IN WITH TWITTER
@@ -65,7 +66,7 @@ const LoginSignup = () => {
             ))}
           </ul>
 
-          <button className="bg-black text-white px-6 py-2 mt-6">CREATE ACCOUNT</button>
+          <button className="bg-red-500 text-white px-6 py-2 mt-6">CREATE ACCOUNT</button>
         </div>
       </div>
     </div>
