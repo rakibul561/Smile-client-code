@@ -76,6 +76,12 @@ const LoginSignup = () => {
           <button className="bg-red-500 text-white px-6 py-2 mt-6">CREATE ACCOUNT</button>
           <button className="bg-red-500 text-white px-6 py-2 mt-6">CREATE ACCOUNT</button>
           <button className="bg-red-500 text-white px-6 py-2 mt-6">CREATE ACCOUNT</button>
+          <button className="bg-red-500 text-white px-6 py-2 mt-6">CREATE ACCOUNT</button>
+          <button className="bg-red-500 text-white px-6 py-2 mt-6">CREATE ACCOUNT</button>
+          <button className="bg-red-500 text-white px-6 py-2 mt-6">CREATE ACCOUNT</button>
+          <button className="bg-red-500 text-white px-6 py-2 mt-6">CREATE ACCOUNT</button>
+          <button className="bg-red-500 text-white px-6 py-2 mt-6">CREATE ACCOUNT</button>
+          <button className="bg-red-500 text-white px-6 py-2 mt-6">CREATE ACCOUNT</button>
           
       </div>
     </div>
