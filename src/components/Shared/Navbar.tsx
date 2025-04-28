@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
                 </div>
               </div>
             </div>
-            <a className="btn btn-ghost text-xl">Smile</a>
+            <a className=" text-3xl font-semibold">Smile</a>
           </div>
 
           <div className="navbar-center hidden lg:flex">
