@@ -55,6 +55,13 @@ const LoginSignup = () => {
           <h2 className="text-xl font-semibold mb-6">Signup Today And You'll Be Able To</h2>
           <h2 className="text-xl font-semibold mb-6">Signup Today And You'll Be Able To</h2>
           <h2 className="text-xl font-semibold mb-6">Signup Today And You'll Be Able To</h2>
+          <h2 className="text-xl font-semibold mb-6">Signup Today And You'll Be Able To</h2>
+          <h2 className="text-xl font-semibold mb-6">Signup Today And You'll Be Able To</h2>
+          <h2 className="text-xl font-semibold mb-6">Signup Today And You'll Be Able To</h2>
+          <h2 className="text-xl font-semibold mb-6">Signup Today And You'll Be Able To</h2>
+          <h2 className="text-xl font-semibold mb-6">Signup Today And You'll Be Able To</h2>
+          <h2 className="text-xl font-semibold mb-6">Signup Today And You'll Be Able To</h2>
+          <h2 className="text-xl font-semibold mb-6">Signup Today And You'll Be Able To</h2>
           <ul className="space-y-4 text-sm">
             {[
               'Online Order Status',
