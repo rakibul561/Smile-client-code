@@ -80,7 +80,7 @@ const LoginSignup = () => {
       </div>
         
         
-    </div>
+
   );
 };
 
