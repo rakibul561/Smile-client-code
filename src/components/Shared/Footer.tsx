@@ -79,6 +79,8 @@ const Footer:React.FC = () => {
           <img src="https://i.ibb.co.com/prnKtwB2/download.png " alt="Visa" className="h-6" />
           <img src="https://i.ibb.co.com/prnKtwB2/download.png " alt="Visa" className="h-6" />
           <img src="https://i.ibb.co.com/prnKtwB2/download.png " alt="Visa" className="h-6" />
+          <img src="https://i.ibb.co.com/prnKtwB2/download.png " alt="Visa" className="h-6" />
+          <img src="https://i.ibb.co.com/prnKtwB2/download.png " alt="Visa" className="h-6" />
         </div>
       </div>
     </footer> 
