@@ -72,7 +72,15 @@ const Footer:React.FC = () => {
         </div>
         <div className="flex items-center text-2xl space-x-4 mt-4 md:mt-0">
           <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
      
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
      
         </div>
       </div>
