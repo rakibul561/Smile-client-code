@@ -81,6 +81,25 @@ const Footer:React.FC = () => {
           <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
           <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
           <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+           <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" /> <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" /> <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" /> <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" /> <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" /> <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
+          <img src="https://i.ibb.co.com/JW3RN64p/download-1.jpg" alt="American Express" className="h-6" />
      
         </div>
       </div>
