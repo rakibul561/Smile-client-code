@@ -27,6 +27,11 @@ const Footer:React.FC = () => {
         <div>
           <h3 className="text-white font-bold mb-4">LATEST TWEETS</h3>
           <p className="text-sm">No tweets available</p>
+          <p className="text-sm">No tweets available</p>
+          <p className="text-sm">No tweets available</p>
+          <p className="text-sm">No tweets available</p>
+          <p className="text-sm">No tweets available</p>
+          <p className="text-sm">No tweets available</p>
         </div>
 
         {/* Product Tags */}
