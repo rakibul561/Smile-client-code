@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { FaFacebookF, FaTwitter, FaEdit } from 'react-icons/fa';
 
-const LoginSignup = () => {
+const LoginSignup:React.FC = () => {
   return (
     <div className=" flex items-center justify-center bg-white px-4 py-10">
 
@@ -51,8 +51,8 @@ const LoginSignup = () => {
 
         {/* Signup Section  overview*/}
         <div className="p-8 border border-gray-300 ml-8">
-          <h2 className="text-xl font-semibold mb-6">Signup Today And You'll Be Able To</h2>
-          <h2 className="text-xl font-semibold mb-6">Signup Today And You'll Be Able To</h2>
+          <h2 className="text-xl font-semibold mb-6">Signup Today And Youll Be Able To</h2>
+          <h2 className="text-xl font-semibold mb-6">Signup Today And Youll Be Able To</h2>
           
           <ul className="space-y-4 text-sm">
             {[
