@@ -29,26 +29,7 @@ const Footer:React.FC = () => {
           <p className="text-sm">Not Found!</p>
           <p className="text-sm">Not Found!</p>
           <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
-          <p className="text-sm">Not Found!</p>
+
      
          
           
