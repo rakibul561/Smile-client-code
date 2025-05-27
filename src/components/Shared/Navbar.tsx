@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
                 className="menu menu-sm dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow"
               >
                 <div className="menu menu-horizontal gap-8 font-semibold text-xl px-1">
-                  <Link href={""}> HOME</Link>
+                  <Link href={"/"}> HOME</Link>
                   <Link href={""}> WOMEN</Link>
                   <Link href={""}> SHOP</Link>
                   <Link href={""}> BLOG</Link>
@@ -57,16 +57,17 @@ const Navbar: React.FC = () => {
                 </div>
               </div>
             </div>
-            <a className=" text-3xl font-semibold">Smile</a>
+            <Link href={'/'} className=" text-3xl font-semibold">Smile</Link>
           </div>
 
           <div className="navbar-center hidden lg:flex">
             <div className="menu menu-horizontal gap-8 font-semibold text-xl px-1">
-              <Link href={""}> HOME</Link>
+              <Link href={"/"}> HOME</Link>
               <Link href={""}> WOMEN</Link>
               <Link href={""}> SHOP</Link>
               <Link href={""}> BLOG</Link>
               <Link href={""}> PAGES</Link>
+              <Link href={"/login"}>LOGIN</Link>
             </div>
           </div>
 
