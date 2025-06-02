@@ -54,10 +54,7 @@ const Navbar: React.FC = () => {
                   <Link href={""}> SHOP</Link>
                   <Link href={""}> BLOG</Link>
                   <Link href={""}> PAGES</Link>
-                  <Link href={""}> LOGIN</Link>
-                  <Link href={""}> LOGIN</Link>
-                  <Link href={""}> LOGIN</Link>
-                  <Link href={""}> LOGIN</Link>
+                 
                 </div>
               </div>
             </div>
