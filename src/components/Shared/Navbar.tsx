@@ -54,6 +54,8 @@ const Navbar: React.FC = () => {
                   <Link href={""}> SHOP</Link>
                   <Link href={""}> BLOG</Link>
                   <Link href={""}> PAGES</Link>
+                    <Link href={"/login"}>LOGIN</Link>
+                      <Link href={"/contact"}>Contact</Link>
                  
                 </div>
               </div>
@@ -69,6 +71,8 @@ const Navbar: React.FC = () => {
               <Link href={""}> BLOG</Link>
               <Link href={""}> PAGES</Link>
               <Link href={"/login"}>LOGIN</Link>
+               <Link href={"/contact"}>Contact</Link>
+
             </div>
           </div>
 
