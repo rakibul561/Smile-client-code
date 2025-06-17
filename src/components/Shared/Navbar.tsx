@@ -66,10 +66,10 @@ const Navbar: React.FC = () => {
           <div className="navbar-center hidden lg:flex">
             <div className="menu menu-horizontal gap-8 font-semibold text-xl px-1">
               <Link href={"/"}> HOME</Link>
-              <Link href={""}> WOMEN</Link>
-              <Link href={""}> SHOP</Link>
-              <Link href={""}> BLOG</Link>
-              <Link href={""}> PAGES</Link>
+              <Link href={"/women"}> WOMEN</Link>
+              <Link href={"/shop"}> SHOP</Link>
+              <Link href={"/bloge"}> BLOG</Link>
+              <Link href={"/page"}> PAGES</Link>
               <Link href={"/login"}>LOGIN</Link>
                <Link href={"/contact"}>Contact</Link>
 
