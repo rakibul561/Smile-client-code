@@ -10,8 +10,8 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules'
 import Slide from './Slide'
 
 export default function Carosel() {
-  const bgimg1 = 'https://i.ibb.co.com/gbwWcFsD/image-2.jpg'
-  const bgimg2 = 'https://i.ibb.co.com/JRzf8dW0/image-1.jpg'
+  const bgimg1 = 'https://i.ibb.co/GvfyS3L5/search-engine-optimization-7843974-1280.jpg'
+  const bgimg2 = 'https://i.ibb.co/GvfyS3L5/search-engine-optimization-7843974-1280.jpg'
 
   const [currentIndex, setCurrentIndex] = useState(0)
 
